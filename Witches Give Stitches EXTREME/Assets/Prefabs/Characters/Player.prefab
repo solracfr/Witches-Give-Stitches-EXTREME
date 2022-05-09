@@ -213,11 +213,12 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
+  - component: {fileID: 2500965250424410217}
   - component: {fileID: 3162671970435560167}
   - component: {fileID: 5770067566942314101}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -282,7 +283,7 @@ MonoBehaviour:
   cam: {fileID: 2000000}
   movementSettings:
     ForwardSpeed: 8
-    BackwardSpeed: 4
+    BackwardSpeed: 2
     StrafeSpeed: 4
     RunMultiplier: 2
     RunKey: 304
@@ -336,6 +337,20 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &2500965250424410217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80be56229659c7c4483de3b1a95d7a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numItemsGathered: 0
+  totalItemsLeft: 5
 --- !u!114 &3162671970435560167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,6 +363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbe824f1738a0242aadd086ad1115b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
 --- !u!114 &5770067566942314101
 MonoBehaviour:
   m_ObjectHideFlags: 0

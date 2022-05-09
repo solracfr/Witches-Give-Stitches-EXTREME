@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(EnemyAI))]
 public class EnemyHealth : MonoBehaviour
 {
     [SerializeField] float hitPoints = 100f;

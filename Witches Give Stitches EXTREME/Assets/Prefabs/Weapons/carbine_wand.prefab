@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 499022}
   - component: {fileID: 3333832}
   - component: {fileID: 2312992}
+  - component: {fileID: 5661339792658038508}
+  - component: {fileID: 6609025235256320977}
   m_Layer: 0
-  m_Name: wand04_red
+  m_Name: carbine_wand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,6 +84,43 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5661339792658038508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a278d32b4db1a449ab4ee4a7ff1c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FPCamera: {fileID: 0}
+  range: 50
+  weaponDamage: 20
+  muzzleFlash: {fileID: 7483955691634997584}
+  ammoSlot: {fileID: 0}
+  hitEffect: {fileID: 4772606118717239568, guid: d4149dc20158c744493d37ad216e6d83, type: 3}
+  timeBetweenShots: 1
+--- !u!114 &6609025235256320977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3fa9bd15de90a459fb79cbc866da3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomedInFOV: 20
+  zoomedOutFOV: 60
+  zoomedInMouseSensitivity: 2
+  zoomedOutMouseSensitivity: 0.5
+  fpsCamera: {fileID: 0}
+  fpsController: {fileID: 0}
 --- !u!1001 &4713864841560939449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170,5 +209,10 @@ PrefabInstance:
 --- !u!4 &2328189180626867197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6999825962516695108, guid: a6abb9144becfcc49b38199d0c84c45d, type: 3}
+  m_PrefabInstance: {fileID: 4713864841560939449}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &7483955691634997584 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2789796444848775913, guid: a6abb9144becfcc49b38199d0c84c45d, type: 3}
   m_PrefabInstance: {fileID: 4713864841560939449}
   m_PrefabAsset: {fileID: 0}

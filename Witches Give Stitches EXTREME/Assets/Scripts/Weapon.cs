@@ -9,27 +9,38 @@ public class Weapon : MonoBehaviour
     [SerializeField] float range = 100f;
     [SerializeField] float weaponDamage = 20f;
     [SerializeField] ParticleSystem muzzleFlash;
+    [SerializeField] Ammo ammoSlot;
     
     // this is for the hit effect from the weapon
     // we choose it to be a GameObject bc we 
     // plan to instantiate it
     [SerializeField] GameObject hitEffect;
+    [SerializeField] float timeBetweenShots = 0.5f;
+
+    bool canShoot = true;
 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetMouseButtonDown(0) && canShoot == true)
         {
-            Shoot();
+            StartCoroutine(Shoot());
         }
     }
 
-    void Shoot()
+    IEnumerator Shoot()
     {
-        PlayMuzzleFlash();
-        ProcessRaycast();
-
+        canShoot = false;
+        if (ammoSlot.GetCurrentAmmo() > 0)
+        {
+            PlayMuzzleFlash();
+            ProcessRaycast();
+            ammoSlot.ReduceCurrentAmmo();
+        }
+        
+        yield return new WaitForSeconds(timeBetweenShots);
+        canShoot = true;
     }
 
     void PlayMuzzleFlash()

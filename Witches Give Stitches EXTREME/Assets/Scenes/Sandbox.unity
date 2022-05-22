@@ -1208,11 +1208,6 @@ PrefabInstance:
       objectReference: {fileID: 1866967952}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f9a360d14d2b1d4a963cc77e6bc3a01, type: 3}
---- !u!20 &1072724945 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 2000000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-  m_PrefabInstance: {fileID: 1866967951}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1121424243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2495,26 +2490,46 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 10991327359435529, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: currentWeapon
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 466573241244326587, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: range
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3162671970435560167, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 693010810}
+    - target: {fileID: 3446816436706448719, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_Name
+      value: Pistol Wand
+      objectReference: {fileID: 0}
+    - target: {fileID: 3446816436706448719, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536443512212529817, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536443512214541971, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_Name
+      value: Shotgun Wand
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536443512214541971, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5253597879565212541, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_Name
-      value: Wand
+      value: Carbine Wand
       objectReference: {fileID: 0}
-    - target: {fileID: 5964221342642627620, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: FPCamera
-      value: 
-      objectReference: {fileID: 1072724945}
-    - target: {fileID: 5964221342642627620, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: hitEffect
-      value: 
-      objectReference: {fileID: 4772606118717239568, guid: d4149dc20158c744493d37ad216e6d83, type: 3}
-    - target: {fileID: 5964221342642627620, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: muzzleFlash
-      value: 
-      objectReference: {fileID: 1866967953}
+    - target: {fileID: 5253597879565212541, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7541247711867336618, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -2527,6 +2542,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.089
       objectReference: {fileID: 0}
+    - target: {fileID: 8164560851212588833, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 1866967954}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!4 &1866967952 stripped
@@ -2534,11 +2553,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 1866967951}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1866967953 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 3401587036087573767, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+--- !u!114 &1866967954 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2199275589112228535, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
   m_PrefabInstance: {fileID: 1866967951}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb36a79494285aa4f9b21338496f3a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1879894189
 GameObject:
   m_ObjectHideFlags: 0

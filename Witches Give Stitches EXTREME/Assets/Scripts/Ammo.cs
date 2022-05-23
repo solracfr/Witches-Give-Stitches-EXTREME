@@ -4,17 +4,26 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
-    [SerializeField] int ammoAmount = 10;
+    [SerializeField] AmmoSlot[] ammoSlots;
 
-    //return amt of ammo we have
-    public int GetCurrentAmmo() 
+    // Ammo can see this and work with its public variables, but 
+    // Something else like, say, Weapon, couldn't
+    [System.Serializable]
+    private class AmmoSlot 
     {
-        return ammoAmount;
+        public AmmoType ammoType;
+        public int ammoAmount;
     }
 
-    //reduce amt of ammo we have
-    public void ReduceCurrentAmmo()
-    {
-        ammoAmount--;
-    }
+    // //return amt of ammo we have
+    // public int GetCurrentAmmo() 
+    // {
+    //     return ammoAmount;
+    // }
+
+    // //reduce amt of ammo we have
+    // public void ReduceCurrentAmmo()
+    // {
+    //     ammoAmount--;
+    // }
 }

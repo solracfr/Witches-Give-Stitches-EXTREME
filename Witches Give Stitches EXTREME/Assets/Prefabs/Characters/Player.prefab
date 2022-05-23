@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb36a79494285aa4f9b21338496f3a39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots: []
 --- !u!114 &5770067566942314101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,9 +419,9 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5253597879565547801}
-  - {fileID: 4536443512214353143}
   - {fileID: 3446816436706129707}
+  - {fileID: 4536443512214353143}
+  - {fileID: 5253597879565547801}
   m_Father: {fileID: 400000}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -455,7 +455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 499022, guid: c63efdff18afd6a44b8c195b12fa76c9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 499022, guid: c63efdff18afd6a44b8c195b12fa76c9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -620,7 +620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 499022, guid: 2e52ab7b27833a546a0f62de87d98a15, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 499022, guid: 2e52ab7b27833a546a0f62de87d98a15, type: 3}
       propertyPath: m_LocalPosition.x

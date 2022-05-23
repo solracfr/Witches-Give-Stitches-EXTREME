@@ -19,29 +19,33 @@ public class Weapon : MonoBehaviour
 
     bool canShoot = true;
 
+    private void OnEnable() 
+    {
+        canShoot = true; // allows for immediate shooting after weapon switching; known bug with this where you can reset the delay by switching weapons
+    }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && canShoot == true)
-        {
-            StartCoroutine(Shoot());
-        }
-    }
+    // void Update()
+    // {
+    //     if (Input.GetMouseButtonDown(0) && canShoot == true)
+    //     {
+    //         StartCoroutine(Shoot());
+    //     }
+    // }
 
-    IEnumerator Shoot()
-    {
-        canShoot = false;
-        if (ammoSlot.GetCurrentAmmo() > 0)
-        {
-            PlayMuzzleFlash();
-            ProcessRaycast();
-            ammoSlot.ReduceCurrentAmmo();
-        }
+    // IEnumerator Shoot()
+    // {
+    //     canShoot = false;
+    //     if (ammoSlot.GetCurrentAmmo() > 0)
+    //     {
+    //         PlayMuzzleFlash();
+    //         ProcessRaycast();
+    //         ammoSlot.ReduceCurrentAmmo();
+    //     }
         
-        yield return new WaitForSeconds(timeBetweenShots);
-        canShoot = true;
-    }
+    //     yield return new WaitForSeconds(timeBetweenShots);
+    //     canShoot = true;
+    // }
 
     void PlayMuzzleFlash()
     {

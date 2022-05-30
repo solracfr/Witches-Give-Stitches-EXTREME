@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] float weaponDamage = 20f;
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AmmoType ammoType;
     
     // this is for the hit effect from the weapon
     // we choose it to be a GameObject bc we 
@@ -25,27 +26,27 @@ public class Weapon : MonoBehaviour
     }
 
     // Update is called once per frame
-    // void Update()
-    // {
-    //     if (Input.GetMouseButtonDown(0) && canShoot == true)
-    //     {
-    //         StartCoroutine(Shoot());
-    //     }
-    // }
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && canShoot == true)
+        {
+            StartCoroutine(Shoot());
+        }
+    }
 
-    // IEnumerator Shoot()
-    // {
-    //     canShoot = false;
-    //     if (ammoSlot.GetCurrentAmmo() > 0)
-    //     {
-    //         PlayMuzzleFlash();
-    //         ProcessRaycast();
-    //         ammoSlot.ReduceCurrentAmmo();
-    //     }
+    IEnumerator Shoot()
+    {
+        canShoot = false;
+        if (ammoSlot.GetCurrentAmmo(ammoType) > 0)
+        {
+            PlayMuzzleFlash();
+            ProcessRaycast();
+            ammoSlot.ReduceCurrentAmmo(ammoType);
+        }
         
-    //     yield return new WaitForSeconds(timeBetweenShots);
-    //     canShoot = true;
-    // }
+        yield return new WaitForSeconds(timeBetweenShots);
+        canShoot = true;
+    }
 
     void PlayMuzzleFlash()
     {

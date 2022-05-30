@@ -100,6 +100,7 @@ MonoBehaviour:
   weaponDamage: 60
   muzzleFlash: {fileID: 7483955691634997584}
   ammoSlot: {fileID: 0}
+  ammoType: 1
   hitEffect: {fileID: 4772606118717239568, guid: d4149dc20158c744493d37ad216e6d83, type: 3}
   timeBetweenShots: 2
 --- !u!1001 &4713864841560939449

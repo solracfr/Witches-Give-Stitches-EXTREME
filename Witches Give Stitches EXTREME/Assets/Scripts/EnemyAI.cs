@@ -7,12 +7,16 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField] Transform target; // where it is in the world
-    [SerializeField] float chaseRadius = 5f; // how far until enemy begins chasing
-    [SerializeField] float turnSpeed = 5f;
-    NavMeshAgent navMeshAgent;
-    float distanceToTarget = Mathf.Infinity;
-    bool isProvoked = false;
 
+    [SerializeField] float chaseRadius = 5f; // how far until enemy begins chasing
+
+    [SerializeField] float turnSpeed = 5f;
+
+    NavMeshAgent navMeshAgent;
+
+    float distanceToTarget = Mathf.Infinity;
+
+    bool isProvoked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -23,17 +27,17 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        distanceToTarget = Vector3.Distance(target.position, transform.position);
+        distanceToTarget =
+            Vector3.Distance(target.position, transform.position);
 
         if (isProvoked)
         {
             EngageTarget();
         }
-        else if(distanceToTarget <= chaseRadius)
+        else if (distanceToTarget <= chaseRadius)
         {
             isProvoked = true;
-            
-        }    
+        }
     }
 
     private void EngageTarget()
@@ -49,8 +53,6 @@ public class EnemyAI : MonoBehaviour
         {
             AttackTarget();
         }
-
-
     }
 
     private void AttackTarget()
@@ -69,11 +71,17 @@ public class EnemyAI : MonoBehaviour
     private void FaceTarget()
     {
         Vector3 direction = (target.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
+        Quaternion lookRotation =
+            Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation =
+            Quaternion
+                .Slerp(transform.rotation,
+                lookRotation,
+                Time.deltaTime * turnSpeed);
     }
 
-    void OnDrawGizmosSelected() {
+    void OnDrawGizmosSelected()
+    {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, chaseRadius);
     }

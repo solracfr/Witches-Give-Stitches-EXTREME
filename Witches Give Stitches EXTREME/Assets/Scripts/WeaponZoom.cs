@@ -7,12 +7,20 @@ public class WeaponZoom : MonoBehaviour
 {
     [SerializeField] float zoomedInFOV = 20f;
     [SerializeField] float zoomedOutFOV = 60f;
-    [SerializeField] float zoomedInMouseSensitivity = 2f;
-    [SerializeField] float zoomedOutMouseSensitivity = .5f;
+    [SerializeField] float zoomedInMouseSensitivity = .5f;
+    [SerializeField] float zoomedOutMouseSensitivity = 2f;
     [SerializeField] Camera fpsCamera;
     [SerializeField] RigidbodyFirstPersonController fpsController; // needed the proper namespace to use this class
 
     bool zoomedInToggle = false;
+
+    void OnDisable() 
+    {
+        if (zoomedInToggle == true)
+        {
+            ZoomOut();
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -21,19 +29,28 @@ public class WeaponZoom : MonoBehaviour
         {
             if (zoomedInToggle == false)
             {
-                zoomedInToggle = true;
-                fpsCamera.fieldOfView = zoomedInFOV;
-                fpsController.mouseLook.XSensitivity = zoomedOutMouseSensitivity;
-                fpsController.mouseLook.YSensitivity = zoomedOutMouseSensitivity;
+                ZoomIn();
             }
             else
             {
-                zoomedInToggle = false;
-                fpsCamera.fieldOfView = zoomedOutFOV;
-                fpsController.mouseLook.XSensitivity = zoomedInMouseSensitivity;
-                fpsController.mouseLook.YSensitivity = zoomedInMouseSensitivity;
+                ZoomOut();
             }
         }
         
+    }
+
+    private void ZoomIn()
+    {
+        zoomedInToggle = true;
+        fpsCamera.fieldOfView = zoomedInFOV;
+        fpsController.mouseLook.XSensitivity = zoomedInMouseSensitivity;
+        fpsController.mouseLook.YSensitivity = zoomedInMouseSensitivity;
+    }
+    private void ZoomOut()
+    {
+        zoomedInToggle = false;
+        fpsCamera.fieldOfView = zoomedOutFOV;
+        fpsController.mouseLook.XSensitivity = zoomedOutMouseSensitivity;
+        fpsController.mouseLook.YSensitivity = zoomedOutMouseSensitivity;
     }
 }

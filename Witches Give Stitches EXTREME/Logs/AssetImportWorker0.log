@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16303 MB
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16294 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/xdjer/Projects/Witches-Give-Stitches-EXTREME/Witches Give Stitches EXTR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63326
+49708
 Successfully changed project path to: C:/Users/xdjer/Projects/Witches-Give-Stitches-EXTREME/Witches Give Stitches EXTREME
 C:/Users/xdjer/Projects/Witches-Give-Stitches-EXTREME/Witches Give Stitches EXTREME
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.15 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,582 +36,370 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002659 seconds.
+Registered in 0.002744 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.298 seconds
+- Completed reload, in  1.300 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001562 seconds.
+Registered in 0.001545 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.251 seconds
+- Completed reload, in  0.924 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2598 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 136.7 MB.
-System memory in use after: 134.4 MB.
+System memory in use before: 137.0 MB.
+System memory in use after: 134.7 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3027.
-Total: 4.705500 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.137600 ms MarkObjects: 2.436700 ms  DeleteObjects: 1.751300 ms)
+Total: 3.388600 ms (FindLiveObjects: 0.420900 ms CreateObjectMapping: 0.173800 ms MarkObjects: 1.664600 ms  DeleteObjects: 1.128600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Item.cs
-  artifactKey: Guid(2fd71d4db07725b4e8e234408a619e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Item.cs using Guid(2fd71d4db07725b4e8e234408a619e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86f28aac8f8339aa0925b06304b999c') in 0.024380 seconds
-  Import took 0.028257 seconds .
+  path: Assets/Animations/Z_Enemy.controller
+  artifactKey: Guid(2e9e97a47e36893479a21bf9fb4b5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Z_Enemy.controller using Guid(2e9e97a47e36893479a21bf9fb4b5870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5a1ce99b3caff05d4dbfb7b3396d0b') in 0.032904 seconds
+  Import took 0.036648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.106733 seconds.
+  path: Assets/Animations/Enemy.controller
+  artifactKey: Guid(3023ccc87ea85e9478a37146104cd1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy.controller using Guid(3023ccc87ea85e9478a37146104cd1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303a7bfb59199d98716acf36911fd707') in 0.009476 seconds
+  Import took 0.013188 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.3 MB.
+System memory in use after: 78.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3027.
+Total: 3.850000 ms (FindLiveObjects: 0.318100 ms CreateObjectMapping: 0.130200 ms MarkObjects: 2.204800 ms  DeleteObjects: 1.196100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001610 seconds.
+Registered in 0.001499 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.881 seconds
+- Completed reload, in  0.832 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.5 MB.
-System memory in use after: 127.1 MB.
+System memory in use before: 129.9 MB.
+System memory in use after: 127.6 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3030.
-Total: 4.204900 ms (FindLiveObjects: 0.557300 ms CreateObjectMapping: 0.303900 ms MarkObjects: 1.985600 ms  DeleteObjects: 1.356100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 504.765484 seconds.
-  path: Assets/Scripts/Item.cs
-  artifactKey: Guid(2fd71d4db07725b4e8e234408a619e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Item.cs using Guid(2fd71d4db07725b4e8e234408a619e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f25a8eb7591fcecc1a3b4439c2d643') in 0.005779 seconds
-  Import took 0.009795 seconds .
+Total: 3.416400 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.126900 ms MarkObjects: 1.840700 ms  DeleteObjects: 1.203900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001575 seconds.
+Registered in 0.001527 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
+- Completed reload, in  0.845 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 129.6 MB.
-System memory in use after: 127.3 MB.
+System memory in use before: 130.0 MB.
+System memory in use after: 127.7 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3033.
-Total: 3.414600 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.108900 ms MarkObjects: 1.853000 ms  DeleteObjects: 1.202000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 143.682787 seconds.
-  path: Assets/Prefabs/Item/Key Item 1.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/Key Item 1.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9b3fe756513ec22428a9c1fb5edb72') in 0.199865 seconds
-  Import took 0.203758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.019075 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af977bca4900837c59cecd39af5ad08') in 0.016997 seconds
-  Import took 0.020867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.829171 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet 1.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet 1.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2450cf0d5a644f205e25f1654877715') in 0.016864 seconds
-  Import took 0.020716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.408792 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Shell.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Shell.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff01d5eb3001efd93a68ded703547eae') in 0.013155 seconds
-  Import took 0.016936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378534 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Shell 1.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Shell 1.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddd15967949facf6d1d38860e31a00b') in 0.012134 seconds
-  Import took 0.016214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.440235 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rocket.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rocket.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a166ef041377969608bb21137f489c08') in 0.014723 seconds
-  Import took 0.018402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.116617 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ed229fc2903028aaf27ed513432e03') in 0.010934 seconds
-  Import took 0.014892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.879791 seconds.
-  path: Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx
-  artifactKey: Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Car/Models/SkyCar.fbx using Guid(e6fec471c20b9d148b1f87910e67bea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103277caa05d10c176efc2d8c90552a1') in 0.266356 seconds
-  Import took 0.270575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx
-  artifactKey: Guid(ce8d79c79d11b8f9d00076e98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx using Guid(ce8d79c79d11b8f9d00076e98d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7317d880332eff8793fa097d3dc622d6') in 0.020559 seconds
-  Import took 0.023973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx
-  artifactKey: Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/Water/Water/Models/WaterPlane.fbx using Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b3ce20cbc83a30c2245e10254f018a') in 0.029393 seconds
-  Import took 0.033587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.441980 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e253a08d298cd19f73e41f94be7facf') in 0.012366 seconds
-  Import took 0.015968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.628656 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ca77e198287f749245b3edd5969a62') in 0.019759 seconds
-  Import took 0.024942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.590891 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29f28f51c0a0d30ece11738b490dee6') in 0.011366 seconds
-  Import took 0.015370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.791089 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56563a8860b85c9e1402a0a8cc5b959') in 0.012516 seconds
-  Import took 0.016202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.996565 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba99bc5c7689063baea05ab7a66e928f') in 0.010908 seconds
-  Import took 0.014553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.705749 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d366f410f17f594e78ce320d5a63003') in 0.010170 seconds
-  Import took 0.013865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.213444 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc54eed6278749456f25bd49a1b02a3') in 0.008437 seconds
-  Import took 0.012023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.832515 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullet.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullet.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9c9958e276f01d06cbab798fd463dc') in 0.008779 seconds
-  Import took 0.012618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.841631 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Shells.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Shells.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a95f106946d34507c2c2f5322b05c49') in 0.012361 seconds
-  Import took 0.016160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004157 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Shells.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Shells.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a95f106946d34507c2c2f5322b05c49') in 0.008748 seconds
-  Import took 0.013515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.491447 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12027c00a0e0d303c38fae723cea20dd') in 0.011427 seconds
-  Import took 0.015305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004449 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12027c00a0e0d303c38fae723cea20dd') in 0.009488 seconds
-  Import took 0.013240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.599296 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea9734a0d0a351f9e1604bc73ff12f') in 0.011693 seconds
-  Import took 0.016097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007140 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ea9734a0d0a351f9e1604bc73ff12f') in 0.008546 seconds
-  Import took 0.012974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.456947 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba279ecaf69689a705158730595d29') in 0.008752 seconds
-  Import took 0.012351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.846807 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453eb6f3fa6939af142bfee6ae298105') in 0.009491 seconds
-  Import took 0.013163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.597444 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8016a35cad1f44058d9f76f9b571e478') in 0.008399 seconds
-  Import took 0.012033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.017777 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17717f54d1df0dbce3b6de09e6fcf6b5') in 0.008161 seconds
-  Import took 0.011817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.459245 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8381c75e4356940722108c8e10bf8629') in 0.010787 seconds
-  Import took 0.014460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.135692 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cc443481c80f486aff21efefd419ed') in 0.012654 seconds
-  Import took 0.016260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.016212 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130e1af28adcb315a620f408e1eae3e8') in 0.013366 seconds
-  Import took 0.016964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.733395 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb905d47a1865fe470fa8df4994dc7e') in 0.009729 seconds
-  Import took 0.013614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.881553 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffa2efbcf048f6b6f8b575607dae0b3') in 0.008485 seconds
-  Import took 0.012159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.144259 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c4601c85db0b0456f6bddecb97fbaa') in 0.010986 seconds
-  Import took 0.014671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.303964 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36402dd5174c62f98232f26fc2e5f8d3') in 0.012225 seconds
-  Import took 0.015925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.255814 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c18072e75aea3f903482de2c7210838') in 0.010627 seconds
-  Import took 0.014726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.696024 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedfe495270bb37afb79a766626cb45c') in 0.011880 seconds
-  Import took 0.015600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.203239 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004b17f7a5b6a464384a316a4d8a3e14') in 0.009891 seconds
-  Import took 0.013606 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.206683 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d81c9395c2726a09e2fc9760c0c5b') in 0.011095 seconds
-  Import took 0.014770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.513127 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab255da348c6f60531cbd121526d82da') in 0.010738 seconds
-  Import took 0.014391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.840820 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ac61905f249695c5ff07b36825a81d') in 0.008281 seconds
-  Import took 0.011864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.239249 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9fa0feb36af8938e8ae3e13e84a034') in 0.009161 seconds
-  Import took 0.012790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.517854 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d88bbec5b1adbf23820f4ff36adba') in 0.008360 seconds
-  Import took 0.012042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.625991 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb91b6cd2349a69d900216f247490bbc') in 0.008106 seconds
-  Import took 0.011714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.431169 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e665b2544a3e5310f3591e3c3763904a') in 0.008164 seconds
-  Import took 0.011922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.465153 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef21dca2e387d7138940289e4cb29f7a') in 0.008949 seconds
-  Import took 0.012609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.959708 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81551f6c5da5b26395f0d04cf308669') in 0.008597 seconds
-  Import took 0.012498 seconds .
+Total: 3.161800 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.119000 ms MarkObjects: 1.580300 ms  DeleteObjects: 1.221500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001482 seconds.
+Registered in 0.001572 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
+- Completed reload, in  0.831 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.4 MB.
-System memory in use after: 133.1 MB.
+System memory in use before: 130.0 MB.
+System memory in use after: 127.7 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3090.
-Total: 6.736500 ms (FindLiveObjects: 0.601500 ms CreateObjectMapping: 0.308900 ms MarkObjects: 3.384200 ms  DeleteObjects: 2.439600 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3036.
+Total: 3.898000 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.140600 ms MarkObjects: 2.184800 ms  DeleteObjects: 1.301800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.542634 seconds.
+  path: Assets/Animations/Enemy.controller
+  artifactKey: Guid(3023ccc87ea85e9478a37146104cd1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemy.controller using Guid(3023ccc87ea85e9478a37146104cd1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0a65c1a141de8315ce10daf5aa5085') in 0.036151 seconds
+  Import took 0.039885 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001518 seconds.
+Registered in 0.001606 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.856 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.4 MB.
-System memory in use after: 133.1 MB.
+System memory in use before: 130.0 MB.
+System memory in use after: 127.7 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3093.
-Total: 3.677700 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.150000 ms MarkObjects: 1.944000 ms  DeleteObjects: 1.274600 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3039.
+Total: 4.037400 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.314400 ms  DeleteObjects: 1.340900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 175.773849 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3bb889014c45a1c21d1c0c6791105b') in 0.019995 seconds
-  Import took 0.024060 seconds .
+  Time since last request: 385.925340 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Zombie.controller
+  artifactKey: Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Zombie.controller using Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe7f9935474e8e969e33b72a6fed74c') in 0.061728 seconds
+  Import took 0.065838 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001509 seconds.
+Registered in 0.001500 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  0.844 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.3 MB.
-System memory in use after: 133.0 MB.
+System memory in use before: 129.9 MB.
+System memory in use after: 127.6 MB.
 
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 3096.
-Total: 4.028300 ms (FindLiveObjects: 0.448500 ms CreateObjectMapping: 0.217300 ms MarkObjects: 1.961500 ms  DeleteObjects: 1.400000 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3042.
+Total: 3.319500 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.129800 ms MarkObjects: 1.556800 ms  DeleteObjects: 1.350500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3045.
+Total: 4.373500 ms (FindLiveObjects: 0.628000 ms CreateObjectMapping: 0.179300 ms MarkObjects: 2.023700 ms  DeleteObjects: 1.541500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.843 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3048.
+Total: 3.358800 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.115600 ms MarkObjects: 1.719000 ms  DeleteObjects: 1.287500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.0 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3051.
+Total: 3.942500 ms (FindLiveObjects: 0.289000 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.150300 ms  DeleteObjects: 1.367400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.233036 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Bullets.prefab
-  artifactKey: Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Bullets.prefab using Guid(8ae14959d8fce404c97798f3f3afe75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad5bfbceec9ac43cbc20d1d5758bf13') in 0.197062 seconds
-  Import took 0.201459 seconds .
+  Time since last request: 1641.636689 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Walk_InPlace.anim
+  artifactKey: Guid(37e6af8636979e04086967e3bd667606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Walk_InPlace.anim using Guid(37e6af8636979e04086967e3bd667606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff198abe50a37b1e4018373d5702ce7e') in 0.031377 seconds
+  Import took 0.035193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc719ea160f65e12aa8bd6d7d7ed945') in 0.011069 seconds
-  Import took 0.014596 seconds .
+  Time since last request: 8.163663 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Run.anim
+  artifactKey: Guid(922934026949958468099adf2c5acaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Run.anim using Guid(922934026949958468099adf2c5acaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f95f57e462e510b3c5a221dfdcf53') in 0.015681 seconds
+  Import took 0.019724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Prefabs/Item/Key Item.prefab
-  artifactKey: Guid(e009eec20deae9946867b8314be5674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/Key Item.prefab using Guid(e009eec20deae9946867b8314be5674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a0b47a6a8da56c3e16f862865284fb') in 0.012395 seconds
-  Import took 0.016078 seconds .
+  Time since last request: 0.001709 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Run.anim
+  artifactKey: Guid(922934026949958468099adf2c5acaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Run.anim using Guid(922934026949958468099adf2c5acaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97f95f57e462e510b3c5a221dfdcf53') in 0.014429 seconds
+  Import took 0.018084 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Shells.prefab
-  artifactKey: Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Shells.prefab using Guid(1a1b96ee58e6aad46964972051c96b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a820c06cc1a6a0f6ee085e9aec8273') in 0.012627 seconds
-  Import took 0.016139 seconds .
+  Time since last request: 24.197830 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Walk1.anim
+  artifactKey: Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Walk1.anim using Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a348e41c39f490676672060c4e15e2') in 0.012419 seconds
+  Import took 0.016362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002518 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Walk1.anim
+  artifactKey: Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Walk1.anim using Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a348e41c39f490676672060c4e15e2') in 0.007904 seconds
+  Import took 0.011545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.630462 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Walk1_InPlace.anim
+  artifactKey: Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Walk1_InPlace.anim using Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8dcbc941c8964d9c40523cb88b7884') in 0.014000 seconds
+  Import took 0.017724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006882 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Walk1_InPlace.anim
+  artifactKey: Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Walk1_InPlace.anim using Guid(a0389bcc17a6335409898ddb374c1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8dcbc941c8964d9c40523cb88b7884') in 0.007470 seconds
+  Import took 0.011262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.671507 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Attack.anim
+  artifactKey: Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Attack.anim using Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da9ad5c0702d6218e15777a5aaf596') in 0.013113 seconds
+  Import took 0.017598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003991 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Attack.anim
+  artifactKey: Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Attack.anim using Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da9ad5c0702d6218e15777a5aaf596') in 0.007747 seconds
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.868826 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_FallingBack.anim
+  artifactKey: Guid(812aae90a9297f249908057eed4c0879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_FallingBack.anim using Guid(812aae90a9297f249908057eed4c0879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d77905e1ea238fff235c49902e8b5') in 0.017263 seconds
+  Import took 0.021083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.1 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3054.
+Total: 3.621400 ms (FindLiveObjects: 0.229100 ms CreateObjectMapping: 0.117300 ms MarkObjects: 1.942300 ms  DeleteObjects: 1.331700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.159176 seconds.
+  path: Assets/Asset Packs/Zombie/Animations/Z_Attack.anim
+  artifactKey: Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Zombie/Animations/Z_Attack.anim using Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab23afb72398b12d26cd071d632e790') in 0.045956 seconds
+  Import took 0.049813 seconds .
 
 ========================================================================
 Received Prepare
@@ -620,48 +408,18 @@ Registered in 0.001558 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.848 seconds
+- Completed reload, in  0.794 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.5 MB.
-System memory in use after: 133.2 MB.
+System memory in use before: 129.9 MB.
+System memory in use after: 127.7 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3135.
-Total: 3.310600 ms (FindLiveObjects: 0.236400 ms CreateObjectMapping: 0.112800 ms MarkObjects: 1.688400 ms  DeleteObjects: 1.271500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.241179 seconds.
-  path: Assets/Prefabs/Item/AmmoPickup_Rockets.prefab
-  artifactKey: Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item/AmmoPickup_Rockets.prefab using Guid(254c29953490dd04aad8649aa14fb998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113775fb57a4aadb2e5e43dd1fe386d2') in 0.173473 seconds
-  Import took 0.177266 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001770 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2486 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.6 MB.
-System memory in use after: 133.3 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3174.
-Total: 3.481300 ms (FindLiveObjects: 0.283700 ms CreateObjectMapping: 0.113100 ms MarkObjects: 1.759200 ms  DeleteObjects: 1.324300 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3057.
+Total: 3.467500 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.146100 ms MarkObjects: 1.727800 ms  DeleteObjects: 1.314700 ms)
 

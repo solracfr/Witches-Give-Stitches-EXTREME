@@ -12,7 +12,7 @@ public class EnemyAttack : MonoBehaviour
         target = FindObjectOfType<PlayerHealth>(); // hones in on the Player, since there's just one
     }
 
-    public void AttackHitEvent()
+    public void AttackHitEvent() // this function is called via the AnimationEvent in the Editor 
     {
         if (target == null) { return; }
         target.TakeDamage(damage);

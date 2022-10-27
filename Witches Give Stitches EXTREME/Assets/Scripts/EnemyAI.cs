@@ -87,7 +87,7 @@ public class EnemyAI : MonoBehaviour
                 Time.deltaTime * turnSpeed);
     }
 
-    void OnDrawGizmosSelected()
+    void OnDrawGizmosSelected() // Changes the look of the Gizmo in the editor
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, chaseRadius);
